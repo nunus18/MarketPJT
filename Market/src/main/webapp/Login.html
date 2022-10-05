@@ -3,19 +3,30 @@
 <head>
 <meta charset="EUC-KR">
 <title>Login</title>
+<style>
+div {
+	width: 300px;
+	height: 100px;
+	border: 1px solid purple;
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	left: 50%;
+}
+ul {
+	list-style: none;
+}
+</style>
 </head>
 <body>
-	<form action="Index.html">
-		<li>ID : <input type="text" name="ID"></li>
-		<input
-			type="button" value="중복확인" onclick="">
-		<li>PW : <input type="password" name="PW"></li> <input
-			type="submit" value="로그인">
-	</form>
-	<script>
-		function idCheck(){
-			
-		}
-	</script>
+	<div>
+		<form action="Index.html">
+			<ul>
+				<li>ID : <input type="text" name="ID"></li>
+				<li>PW : <input type="password" name="PW"></li>
+				<input type="submit" value="로그인">
+			</ul>
+		</form>
+	</div>
 </body>
 </html>
